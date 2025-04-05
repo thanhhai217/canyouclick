@@ -1,61 +1,46 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <title>Coming soon!</title>
+    <title>Coming Soon</title>
     <style>
         body {
+            background-color: #4b918d;
+            color: white;
+            font-family: Arial, sans-serif;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f0f8ff;
-            font-family: 'Comic Sans MS', cursive, sans-serif;
-            color: #ff6347;
-            text-align: center;
             margin: 0;
         }
         h1 {
-            font-size: 3em;
-            animation: bounce 1s infinite;
+            font-size: 4em;
+            text-align: center;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.5em;
+            text-align: center;
+            margin-top: 20px;
+            letter-spacing: 2px;
+        }
+        .lightbulb {
+            background: url('path_to_lightbulb_image.png') no-repeat center center;
+            background-size: contain;
+            margin-bottom: 20px;
         }
         p {
-            font-size: 1.5em;
-            margin: 20px 0;
-        }
-        .emoji {
-            font-size: 5em;
-        }
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% {
-                transform: translateY(0);
-            }
-            40% {
-                transform: translateY(-30px);
-            }
-            60% {
-                transform: translateY(-15px);
-            }
-        }
-        .footer {
-            position: absolute;
-            bottom: 20px;
+            margin-top: 30px;
             font-size: 1em;
-            color: #555;
         }
     </style>
 </head>
 <body>
-    <div>
-        <h1>🎉 Coming soon! 🎉</h1>
-        <p>Tôi đang làm việc chăm chỉ để mang đến cho bạn điều gì đó tuyệt vời!</p>
-        <p class="emoji">🚀✨</p>
-        <p>Hãy quay lại sau nhé!</p>
-    </div>
-    <div class="footer">
-        <p>© 2025 Công ty CanYouClick. Tất cả các quyền được bảo lưu.</p>
-    </div>
+    <div class="lightbulb"></div>
+    <h2>STAY TUNED</h2>
+    <h1>COMING SOON</h1>
 </body>
 </html>
